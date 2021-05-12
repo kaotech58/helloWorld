@@ -11,6 +11,7 @@ int main()
 
     char alphabet[27] = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', ' '};
     char helloWorld[11] = { 0 };
+    int helloWorldIndex = 0;
 
     for (i = 0; i < 1; ++i)
     {
@@ -18,7 +19,8 @@ int main()
         {
             if (p == 7)
             {
-                helloWorld[0] = alphabet[p];
+                helloWorld[helloWorldIndex] = alphabet[p];
+                ++helloWorldIndex;
             }
         }
     }
@@ -29,7 +31,8 @@ int main()
         {
             if (p == 4)
             {
-                helloWorld[1] = alphabet[p];
+                helloWorld[helloWorldIndex] = alphabet[p];
+                ++helloWorldIndex;
             }
         }
     }
@@ -40,7 +43,8 @@ int main()
         {
             if (p == 11)
             {
-                helloWorld[2] = alphabet[p];
+                helloWorld[helloWorldIndex] = alphabet[p];
+                ++helloWorldIndex;
             }
         }
     }
@@ -51,7 +55,8 @@ int main()
         {
             if (p == 11)
             {
-                helloWorld[3] = alphabet[p];
+                helloWorld[helloWorldIndex] = alphabet[p];
+                ++helloWorldIndex;
             }
         }
     }
@@ -62,7 +67,8 @@ int main()
         {
             if (p == 14)
             {
-                helloWorld[4] = alphabet[p];
+                helloWorld[helloWorldIndex] = alphabet[p];
+                ++helloWorldIndex;
             }
         }
     }
@@ -73,7 +79,8 @@ int main()
         {
             if (p == 26)
             {
-                helloWorld[5] = alphabet[p];
+                helloWorld[helloWorldIndex] = alphabet[p];
+                ++helloWorldIndex;
             }
         }
     }
@@ -84,7 +91,8 @@ int main()
         {
             if (p == 22)
             {
-                helloWorld[6] = alphabet[p];
+                helloWorld[helloWorldIndex] = alphabet[p];
+                ++helloWorldIndex;
             }
         }
     }
@@ -95,7 +103,8 @@ int main()
         {
             if (p == 14)
             {
-                helloWorld[7] = alphabet[p];
+                helloWorld[helloWorldIndex] = alphabet[p];
+                ++helloWorldIndex;
             }
         }
     }
@@ -106,7 +115,8 @@ int main()
         {
             if (p == 17)
             {
-                helloWorld[8] = alphabet[p];
+                helloWorld[helloWorldIndex] = alphabet[p];
+                ++helloWorldIndex;
             }
         }
     }
@@ -117,7 +127,8 @@ int main()
         {
             if (p == 11)
             {
-                helloWorld[9] = alphabet[p];
+                helloWorld[helloWorldIndex] = alphabet[p];
+                ++helloWorldIndex;
             }
         }
     }
@@ -128,7 +139,7 @@ int main()
         {
             if (p == 3)
             {
-                helloWorld[10] = alphabet[p];
+                helloWorld[helloWorldIndex] = alphabet[p];
             }
         }
     }
@@ -139,4 +150,3 @@ int main()
     }
 
 }
-
