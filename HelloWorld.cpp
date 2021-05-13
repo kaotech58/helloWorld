@@ -1,5 +1,5 @@
 // Author: Timothy Eiffe
-// Purpose: To print hello world in the worst way possible
+// Purpose: To print hello world in the worst way possible.
 // Date: 12/05/2021
 
 #include <iostream>
