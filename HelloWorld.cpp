@@ -1,4 +1,4 @@
-// Author: Timothy Eiffe
+// Author: Timothy Eiffe.
 // Purpose: To print hello world in the worst way possible.
 // Date: 12/05/2021
 
